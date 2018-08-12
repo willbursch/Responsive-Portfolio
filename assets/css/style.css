@@ -1,7 +1,7 @@
 
 
 body {
-    width: 960px;
+    width: 70%;
     margin: auto;
     background-image: url("../images/tweed_@2X.png");
     
@@ -13,7 +13,6 @@ body {
     padding-left:30px;
     padding-right: 30px;
     min-height: 600px;
-    
 }
 
 .header {
@@ -166,11 +165,15 @@ footer
     
 }
  
-@media screen and (max-width: 640px){
+@media only screen 
+  and (max-width: 640px)
+  { 
     
-    .header { 
-        max-width: 100%;
-
+     .header { 
+        width: 100%;
+        display: inline-block;
+     }
+    
 
     }
     .header-right{
@@ -180,7 +183,9 @@ footer
     }
    .content{
        max-width: 95%;
+       padding: 5%;
+       margin: 0
    }
 
-}
+
 
