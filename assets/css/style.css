@@ -168,14 +168,22 @@ footer
 @media only screen 
   and (max-width: 640px)
   { 
+
+    .body{
+        max-width: 95%;
+    }
     
      .header { 
         width: 100%;
         display: inline-block;
      }
     
+     .images
+     {
+         max-width: 70%;
+     }
 
-    }
+    
     .header-right{
         float: none;
         display:block;
@@ -186,6 +194,6 @@ footer
        padding: 5%;
        margin: 0
    }
-
+  }
 
 
